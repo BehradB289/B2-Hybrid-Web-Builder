@@ -83,7 +83,7 @@ If you want to use the AI version:
 
 - [x] Text-to-website with Gemini AI
 - [x] Standalone manual builder with Local Storage
-- [ ] Add export to .html file for manual builder
+- [X] Add export to .html file for manual builder
 - [ ] Implement environment variable management for API keys
 - [ ] Multi-project saving in manual version
 
