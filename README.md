@@ -27,7 +27,7 @@ Building a website structure from scratch takes hours of boilerplate coding. Dev
 ## 💻 How to Run
 1. Clone the repo:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/B2-AI-Web-Builder.git](https://github.com/YOUR_USERNAME/B2-AI-Web-Builder.git)
+   git clone [https://github.com/BehradB289/B2-AI-Web-Builder.git](https://github.com/BehradB289/B2-AI-Web-Builder.git)
 2.Install dependencies:
 pip install google-generativeai flask flask-cors
 3.Add your API Key in ai_builder.py.
