@@ -1,56 +1,109 @@
-# ⚡ B2 Studio: AI Website Architect + Professional Manual Builder
+# ⚡ B2 Hybrid Studio: AI-Powered + Manual High-Precision Web Builder
 
-**Two powerful versions for website creation**
-
-This project includes **two separate versions**:
-
-1. **AI-Powered Version** – using Google Gemini 2.0 Flash & Python – converts natural language into production-ready HTML/CSS.
-2. **Manual High-Precision Version** – no AI required, built with the best materials and coding practices – which can even outperform the AI version in many cases.
+**Generate production-ready websites in two powerful ways: by AI or by hand.**
 
 [▶️ Watch the Demo Video](https://github.com/BehradB289/B2-AI-Web-Builder/blob/main/Screen%20Recording%202025-12-25%20201736.mp4)
 
 ---
 
-## 📌 Version 1: AI-Powered
+## 🎯 The Big Problem
 
-### 🚀 Features
-- Text-to-Website (e.g., "A cyberpunk portfolio")
-- Neural image generation via Pollinations AI
-- Smart UI with sidebar, mobile preview, layer visualization
-- One-click export to index.html
-
-### 🛠️ Tech Stack
-- Python 3.13 + Google Gemini API (Flash) + Flask + TailwindCSS
-
-### 💻 How to Run
-First, clone the repository:
-git clone https://github.com/BehradB289/B2-AI-Web-Builder.git
-
-Then install dependencies:
-pip install google-generativeai flask flask-cors
-
-Add your API key in ai_builder.py.
-(Get your key from https://aistudio.google.com)
-
-Finally, run the engine:
-python ai_builder.py
+Building a website from scratch takes hours of repetitive boilerplate coding. Developers waste time setting up navbars, hero sections, responsiveness, and layout.  
+Existing AI tools offer speed but take away creative control. On the other hand, pure manual design is time-consuming and requires deep expertise.
 
 ---
 
-## 🎨 Version 2: Manual High-Precision (No AI) – Even Better Than the AI Version
+## 🚀 The B2 Hybrid Solution
 
-This version is completely standalone – no Python, no API key required.
+This project provides **two independent, professional-grade paths** to website creation under one roof:
+
+### 1. 🤖 AI-Powered Engine (for Speed)
+
+- **Text-to-Website:** Converts prompts like *"A cyberpunk portfolio"* into valid HTML/CSS.
+- **Neural Image Generation:** Automatically generates context-aware images via Pollinations AI.
+- **Smart UI Core:** Includes a responsive sidebar, real-time layer visualization, and mobile preview.
+- **Clean Export:** One-click export to a standalone `index.html` file ready for deployment.
+
+**Tech Stack:** Python 3.13 + Google Gemini 2.0 Flash API + Flask + TailwindCSS
+
+---
+
+### 2. ✍️ Manual High-Precision Studio (for Quality & Full Control)
+
+This version is **completely standalone** – no Python, no API key, no installation.  
 Built with **the best materials** (pure HTML, CSS, Tailwind, vanilla JavaScript) and includes:
 
-- ⚡ Zero setup – double-click and run in any browser.
-- 🛠️ Drag & Drop visual editor – move sections, change themes, edit content.
-- 💾 Auto-save to Local Storage
-- 🎨 Professional preset themes: Modern, Cyber, Retro, Corporate.
+- ⚡ **Zero Setup:** Just double-click the file – runs in any browser.
+- 🛠️ **Drag & Drop Visual Editor:** Move sections, change themes, edit content visually.
+- 💾 **Auto-Save to Local Storage:** Never lose your work.
+- 🎨 **Professional Preset Themes:** Modern, Cyberpunk, Retro, Corporate.
+- 🏆 **Why it's better than AI?** Because it's crafted with high precision and full manual control – often producing a more refined and usable output than the AI version.
 
-File: B2-vs_standalone_builder.html
-
-How to use: Download the file and open it in Chrome, Edge, or Firefox. No installation or server needed.
+**File:** `B2-vs_standalone_builder.html`
 
 ---
 
-My recommendation: If manual control and final quality are your priority, go with the manual version – it's crafted with high precision and the best materials, often producing better output than the AI version.
+## 📊 Quick Comparison Table
+
+| Feature | AI Version | Manual Pro Version |
+|---------|------------|--------------------|
+| Installation required | Yes (Python + libs) | No (just one HTML file) |
+| API key required | Yes (from Google) | No |
+| Generation speed | High (seconds) | Depends on user skill |
+| Control over details | Medium | Absolute |
+| Final output quality | Good | Excellent (if user is skilled) |
+| Best for | Quick start, prototyping | Final production projects |
+
+---
+
+## 💻 How to Run (AI Version Only)
+
+If you want to use the AI version:
+
+1. Clone the repository:
+   git clone https://github.com/BehradB289/B2-Hybrid-Web-Builder.git
+
+2. Navigate into the project folder:
+   cd B2-Hybrid-Web-Builder
+
+3. Install dependencies:
+   pip install google-generativeai flask flask-cors
+
+4. Add your API key in `ai_builder.py`.
+   (Get your key from https://aistudio.google.com)
+
+5. Run the engine:
+   python ai_builder.py
+
+**For the manual high‑precision version:** Just download `B2-vs_standalone_builder.html` and open it in any browser. That's it.
+
+---
+
+## 🗺️ Roadmap
+
+- [x] Text-to-website with Gemini AI
+- [x] Standalone manual builder with Local Storage
+- [ ] Add export to .html file for manual builder
+- [ ] Implement environment variable management for API keys
+- [ ] Multi-project saving in manual version
+
+---
+
+## ✨ Future Goals (Kharazmi Competition Vision)
+
+This project is built to evolve into a full-fledged educational platform where:
+- Novice developers can learn design by seeing AI suggestions.
+- Expert developers can work with high-precision, AI-assisted tooling.
+- It serves as a bridge between **Generative AI** and **Craftsmanship**.
+
+---
+
+## 🤝 Contributing
+
+This project is currently being prepared for the **Kharazmi Youth Award**. However, feedback and suggestions are always welcome.
+
+---
+
+## 📜 License
+
+MIT License
