@@ -1,47 +1,56 @@
-# ⚡ B2 Studio: AI Website Architect
+# ⚡ B2 Studio: AI Website Architect + Professional Manual Builder
 
-> **Generate production-ready websites in seconds using Natural Language Processing.**
-> *Powered by Google Gemini 2.0 Flash & Python.*
+**Two powerful versions for website creation**
 
-[▶️ Watch the Demo Video Here](https://github.com/BehradB289/B2-AI-Web-Builder/blob/main/Screen%20Recording%202025-12-25%20201736.mp4)
-*(Upload your video in the issue or simply drag and drop it here to get a link)*
+This project includes **two separate versions**:
 
-## 🛑 The Problem
-Building a website structure from scratch takes hours of boilerplate coding. Developers waste time setting up navbars, hero sections, and responsiveness.
+1. **AI-Powered Version** – using Google Gemini 2.0 Flash & Python – converts natural language into production-ready HTML/CSS.
+2. **Manual High-Precision Version** – no AI required, built with the best materials and coding practices – which can even outperform the AI version in many cases.
 
-## 🚀 The B2 Solution
-**B2 Studio** is a Generative UI Engine. You describe the vision, and the AI writes the code, designs the layout, selects the color palette, and even generates placeholder images via generic prompts.
+[▶️ Watch the Demo Video](https://github.com/BehradB289/B2-AI-Web-Builder/blob/main/Screen%20Recording%202025-12-25%20201736.mp4)
 
-### ✨ Key Features
-- **Text-to-Website:** Converts prompts like *"A cyberpunk portfolio"* into valid HTML/CSS.
-- **Neural Image Generation:** Automatically generates context-aware images via Pollinations AI.
-- **Smart UI Core:** Includes a responsive sidebar, real-time layer visualization, and mobile preview.
-- **Clean Export:** One-click export to a standalone `index.html` file ready for deployment.
+---
 
-## 🛠️ Tech Stack
-- **Core Logic:** Python 3.13
-- **AI Backend:** Google Gemini API (Flash Model)
-- **Server:** Flask (Localhost Microservice)
-- **Frontend:** Vanilla JS + TailwindCSS (No node_modules required!)
+## 📌 Version 1: AI-Powered
 
-## 💻 How to Run
-1. Clone the repo:
-   ```bash
-   git clone [https://github.com/BehradB289/B2-AI-Web-Builder.git](https://github.com/BehradB289/B2-AI-Web-Builder.git)
-2.Install dependencies:
+### 🚀 Features
+- Text-to-Website (e.g., "A cyberpunk portfolio")
+- Neural image generation via Pollinations AI
+- Smart UI with sidebar, mobile preview, layer visualization
+- One-click export to index.html
+
+### 🛠️ Tech Stack
+- Python 3.13 + Google Gemini API (Flash) + Flask + TailwindCSS
+
+### 💻 How to Run
+First, clone the repository:
+git clone https://github.com/BehradB289/B2-AI-Web-Builder.git
+
+Then install dependencies:
 pip install google-generativeai flask flask-cors
-3.Add your API Key in ai_builder.py.
-4.Run the engine:
+
+Add your API key in ai_builder.py.
+(Get your key from https://aistudio.google.com)
+
+Finally, run the engine:
 python ai_builder.py
-## 🎨 Bonus: Standalone Visual Builder (No AI)
-This repository also includes a **client-side only version** for manual design without needing Python or an API Key.
 
-- **File:** `B2-vs_standalone_builder.html`
-- **Features:**
-  - ⚡ **Zero Setup:** Just double-click to run in any browser.
-  - 🛠 **Visual Editor:** Drag-and-drop sections, change themes, and edit content manually.
-  - 💾 **Local Storage:** Saves your progress automatically in the browser.
-  - 🎨 **Preset Themes:** Includes Modern, Cyber, Retro, and Corporate presets.
+---
 
-**How to use:**
-Simply download `B2-vs_standalone_builder.html` and open it in Chrome, Edge, or Firefox. No installation required!
+## 🎨 Version 2: Manual High-Precision (No AI) – Even Better Than the AI Version
+
+This version is completely standalone – no Python, no API key required.
+Built with **the best materials** (pure HTML, CSS, Tailwind, vanilla JavaScript) and includes:
+
+- ⚡ Zero setup – double-click and run in any browser.
+- 🛠️ Drag & Drop visual editor – move sections, change themes, edit content.
+- 💾 Auto-save to Local Storage
+- 🎨 Professional preset themes: Modern, Cyber, Retro, Corporate.
+
+File: B2-vs_standalone_builder.html
+
+How to use: Download the file and open it in Chrome, Edge, or Firefox. No installation or server needed.
+
+---
+
+My recommendation: If manual control and final quality are your priority, go with the manual version – it's crafted with high precision and the best materials, often producing better output than the AI version.
